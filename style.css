@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+table{
+    margin: 20px 0;
+    border-collapse: collapse;
+    width: 60%;
+    max-height: 90vh;
+}
+td{
+    margin: 2px;
+    padding: 6px;
+}
+.team{
+    font-weight: bold;
+    background-color: rgb(68, 66, 66);
+    color: white;
+}
+.lg{
+    background-color: rgb(227, 222, 222);
+}
+.b{
+    font-weight: bolder;
+}
+.blue{
+    color: rgb(11, 84, 241);
+}
+.grey{
+    color: rgb(109, 106, 106);
+}
+.grey1{
+    color: rgb(84, 81, 81);
+}
+.score{
+    font-size: 15px;
+    text-align: right;
+
+}
+.over{
+    font-size: 14px;
+    text-align: left;
+}
